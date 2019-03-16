@@ -132,6 +132,15 @@
             settings:controller="com.google.android.settings.touch.TouchSensitivityPreferenceController"
             settings:keywords="@string/keywords_touch_sensitivity" />
 
+        <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="display_cutout_hidden"
+            android:title="@string/display_cutout_mode_title"
+            android:summary="%s"
+            android:entries="@array/display_cutout_mode_entries"
+            android:entryValues="@array/display_cutout_mode_values"
+            android:defaultValue="0"
+            settings:controller="com.android.settings.display.DisplayCutoutPreferenceController" />
+
         <SwitchPreference
             android:key="touch_sensitivity"
             android:title="@string/touch_sensitivity_title"
