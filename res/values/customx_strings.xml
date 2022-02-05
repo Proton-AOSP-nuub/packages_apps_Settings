@@ -100,4 +100,7 @@
     <string name="display_cutout_mode_normal">Default</string>
     <string name="display_cutout_mode_hidden">Hidden</string>
 
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+
 </resources>
