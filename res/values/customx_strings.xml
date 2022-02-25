@@ -37,6 +37,7 @@
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_users_title">User switcher</string>
     <string name="power_menu_emergency_title">Emergency</string>
+    <string name="power_menu_devicecontrols_title">Device controls</string>
 
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
