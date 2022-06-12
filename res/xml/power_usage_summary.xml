@@ -58,10 +58,4 @@
         android:title="@string/battery_percentage"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
-    <com.android.settingslib.widget.FooterPreference
-        android:key="power_usage_footer"
-        android:selectable="false"
-        android:title="@string/battery_footer_summary"
-        settings:searchable="false" />
-
 </PreferenceScreen>
